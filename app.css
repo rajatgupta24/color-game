@@ -1,6 +1,13 @@
+@media screen and only (max-width: 500px){
+    body{
+        width: 500px;
+    }
+    #container{
+        grid-template-columns: auto auto;
+    }
+}
 body{
     background-color: #232323;
-    width: 500px;
 }
 header{
     text-transform: uppercase;
