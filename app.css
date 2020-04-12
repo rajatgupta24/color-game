@@ -1,0 +1,45 @@
+body{
+    background-color: #232323;
+    width: 500px;
+}
+header{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 8%;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 0.01% 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-btn{
+    border: none;
+    color: #007acc;
+    font-weight: bolder;
+}
+#container{
+    margin: 0 auto;    
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.square{
+    margin: auto auto;
+    width: 70%;
+    height: 50%;
+    border-radius: 20%;
+}
+#result{
+    text-align: center;
+    color: black;
+}
+.bold-text{
+    font-weight: bolder;
+}
