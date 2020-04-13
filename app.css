@@ -1,52 +1,61 @@
-@media screen and only (max-width: 500px){
-    body{
-        width: 500px;
-    }
-    #container{
-        grid-template-columns: auto auto;
-    }
-}
-body{
-    background-color: #232323;
-}
-header{
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding: 8%;
-}
-nav{
-    background-color: whitesmoke;
-    padding: 0.01% 0;
-}
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-.nav-btn{
-    border: none;
-    color: #007acc;
-    font-weight: bolder;
-}
-#container{
-    margin: 0 auto;    
+@media screen and only (max-width: 500px) {
+  body {
     width: 500px;
-    height: 500px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+  }
+  #container {
+    grid-template-columns: auto auto;
+  }
 }
-.square{
-    margin: auto auto;
-    width: 70%;
-    height: 50%;
-    border-radius: 20%;
+body {
+  background-color: #232323;
 }
-#result{
-    text-align: center;
-    color: black;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.bold-text{
-    font-weight: bolder;
+header {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 100px;
+}
+nav {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 5px 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-btn {
+  border: none;
+  color: rgba(0, 122, 204, 0.7);
+  font-weight: bolder;
+}
+.nav-btn:hover {
+  color: rgba(0, 122, 204, 1);
+  cursor: pointer;
+}
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.square {
+  margin: auto auto;
+  width: 70%;
+  height: 50%;
+  border-radius: 20%;
+}
+#result {
+  text-align: center;
+  color: black;
+}
+.bold-text {
+  font-weight: bolder;
 }

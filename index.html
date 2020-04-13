@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="app.css">
-</head>
-<body>
-    <header id="header">
-        <h1>the great <span id="pickedColor"></span> guessing game</h1>
-    </header>
-    <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Game</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <h1>The great <span id="pickedColor"></span> guessing game</h1>
+      </header>
+      <nav>
         <ul>
-            <li><button id="reset" class="nav-btn">NEW COLORS</button></li>
-            <li><span id="result"></span></li>
-            <li><input id="easy" class="nav-btn" type="button" value="EASY"></li>
-            <li><input id="hard" class="nav-btn" type="button" value="HARD"></li>
+          <li><button id="reset" class="nav-btn">NEW COLORS</button></li>
+          <li><span id="result"></span></li>
+          <li>
+            <input id="easy" class="nav-btn" type="button" value="EASY" />
+          </li>
+          <li>
+            <input id="hard" class="nav-btn" type="button" value="HARD" />
+          </li>
         </ul>
-    </nav>
-    <div id="container">
+      </nav>
+      <div id="container">
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
+      </div>
     </div>
-
     <script src="darkgame.js"></script>
-</body>
+  </body>
 </html>
