@@ -39,6 +39,17 @@ ul {
   color: rgba(0, 122, 204, 1);
   cursor: pointer;
 }
+.nav2-btn{
+  border: none;
+  color: rgba(0, 122, 204, 0.7);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.nav2-btn:hover {
+  color: rgba(0, 122, 204, 1);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 #container {
   margin: 0 auto;
   width: 500px;
